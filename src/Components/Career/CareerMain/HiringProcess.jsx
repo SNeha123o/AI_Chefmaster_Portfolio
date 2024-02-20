@@ -13,7 +13,7 @@ function HiringProcess() {
                      <p className='max-w-[30rem]'>See something you want to be part of? Just select the job and apply in the above section.</p>
                 </div>
             </div>
-            <div className='flex gap-x-3 justify-around md:gap-x-36 xl:gap-x-[15rem] items-center mt-16   pl-3'>
+            <div className='flex gap-x-3 justify-around md:gap-x-36 xl:gap-x-[15rem] items-center mt-16 pl-3'>
          
                 <div>
                     <h2 className='text-[2rem] md:text-[3rem] font-bold mb-3'>Written/Technical</h2>
@@ -28,7 +28,7 @@ function HiringProcess() {
                      <p className='max-w-[30rem]'>Here's where we meet you and find out if you have what it takes to become part of our thriving team </p>
                 </div>
             </div>
-            <div className='flex gap-x-3 justify-around md:gap-x-36 xl:gap-x-[15rem] items-center mt-16  pl-2 pl-3'>
+            <div className='flex gap-x-3 justify-around md:gap-x-36 xl:gap-x-[15rem] items-center mt-16 pl-3'>
                  
                 <div>
                     <h2 className='text-[2rem] md:text-[3rem] font-bold mb-3'>HR Discussion</h2>
@@ -36,9 +36,9 @@ function HiringProcess() {
                 </div>
                 <div className=' '> <img className='rounded-full sm:w-24 w-16 ' src="https://images.squarespace-cdn.com/content/v1/5eb0968096632a561fa2a834/1591974899988-AD7H98I3TW634QRQW5VD/testing.png?format=750w" alt=""/></div>
             </div>
-            <div className='flex gap-x-3 justify-around md:gap-x-36 xl:gap-x-[15rem] items-center mt-16   pl-3'>
-                 <div className=' '> <img className='rounded-full sm:w-24 w-16 ' src="https://images.squarespace-cdn.com/content/v1/5eb0968096632a561fa2a834/1591974899988-AD7H98I3TW634QRQW5VD/testing.png?format=750w" alt=""/></div>
-                <div>
+            <div className='flex gap-x-3 justify-around md:gap-x-36 xl:gap-x-[15rem] items-center mt-16 pb-24   pl-3'>
+                 <div className=''> <img className='rounded-full sm:w-24 w-16 ' src="https://images.squarespace-cdn.com/content/v1/5eb0968096632a561fa2a834/1591974899988-AD7H98I3TW634QRQW5VD/testing.png?format=750w" alt=""/></div>
+                <div className=''>
                     <h2 className='text-[2rem] md:text-[3rem] font-bold mb-3'>Final Review</h2>
                      <p className='max-w-[30rem]'>We'll be right back with you after a short discussion.Internally.Hold tight until then! </p>
                 </div>

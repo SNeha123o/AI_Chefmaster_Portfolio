@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Components/Home";
 import Product from "./Components/Product";
 import Technology from "./Components/Career/Technology";
-
+import Hiring from "./Components/Career/CareerMain/HiringProcess"
 import Company from "./Components/Company";
 import SignUpForm from "./Components/SineUpForm";
 import LoginForm from "./Components/LoginForm";
@@ -38,6 +38,7 @@ import Team from './Components/Team/Team'
 import AiAssistant from "./Components/AIChefPocketData/AiAssistant";
 import Kitchen from "./Components/AIChefPocketData/Kitchen";
 import NutritionManager from "./Components/AIChefPocketData/NutritionManager";
+import JobRoles from "./Components/Career/searchJobCards"
 const jobData = [
   {
     title: "Fronend Developer"
@@ -87,6 +88,8 @@ const App = () => {
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/Team" element={<Team />} />
         <Route path="/AiAssistant" element={<AiAssistant />} />
+        <Route path="/Hiring" element={<Hiring />}/>
+        <Route path="/Job" element={<JobRoles />}/>
         <Route
           path="/ainutritionmanager"
           element={<NutritionManager />}
